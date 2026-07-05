@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+todo-app {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-top: 8px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li button {
+  background: red;
+}
